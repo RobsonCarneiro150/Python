@@ -5,10 +5,10 @@ from tkinter import messagebox
 # Conexão com o banco de dados
 def conectar_bd():
     return mysql.connector.connect(
-        user='root',
-        password='090320',
-        host='localhost',
-        database='estoque_db'
+        user='',
+        password='',
+        host='',
+        database=''
     )
 
 # Adicionar um produto
